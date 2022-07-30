@@ -5,7 +5,9 @@ const Homepage = () => {
   return (
     <>
     <Title nombre="Inicio" />
-    <div>Homepage</div>
+    <a>
+    <img src="images/restaurante2.PNG" />
+    </a>
     </>
   )
 }

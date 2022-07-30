@@ -14,6 +14,9 @@ const AboutUs = () => {
         en la calidez de nuestra atención en cada visita a esta casa y en los
         detalles de cada plato.
       </p>
+      <a>
+      <img src="images/restaurante1.png" />
+      </a>
     </>
   );
 };

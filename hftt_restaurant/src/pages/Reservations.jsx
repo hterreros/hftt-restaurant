@@ -5,6 +5,9 @@ const Reservations = () => {
   return (
     <>
     <Title nombre="Reservaciones" />
+    <a>
+      <img src="images/reserva.png" />
+      </a>
     </>
   )
 }
