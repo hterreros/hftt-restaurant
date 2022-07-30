@@ -32,17 +32,17 @@ const NavBar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/reservas">
                   Reservas
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/contacto">
                   Contacto
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/blog">
                   Blog
                 </a>
               </li>
@@ -55,7 +55,7 @@ const NavBar = () => {
                 aria-label="Search"
               />
               <button className="btn btn-outline-success" type="submit">
-                Search
+                Buscar
               </button>
             </form>
           </div>

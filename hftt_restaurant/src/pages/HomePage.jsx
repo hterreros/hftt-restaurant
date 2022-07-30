@@ -4,7 +4,7 @@ import Title from '../components/Title'
 const Homepage = () => {
   return (
     <>
-    <Title nombre="Home" />
+    <Title nombre="Inicio" />
     <div>Homepage</div>
     </>
   )
