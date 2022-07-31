@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hftt-restaurant/public/static/css/main.f73c0c1b.css",
+    "main.js": "/hftt-restaurant/public/static/js/main.84190c55.js",
+    "index.html": "/hftt-restaurant/public/index.html",
+    "main.f73c0c1b.css.map": "/hftt-restaurant/public/static/css/main.f73c0c1b.css.map",
+    "main.84190c55.js.map": "/hftt-restaurant/public/static/js/main.84190c55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f73c0c1b.css",
+    "static/js/main.84190c55.js"
+  ]
+}
