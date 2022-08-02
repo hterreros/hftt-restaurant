@@ -1,12 +1,13 @@
 import React from 'react'
 import Title from '../components/Title'
+const img = require ('../images/reserva.PNG')
 
 const Reservations = () => {
   return (
     <>
     <Title nombre="Reservaciones" />
     <a>
-      <img src="images/reserva.png" />
+      <img src={img}/>
       </a>
     </>
   )

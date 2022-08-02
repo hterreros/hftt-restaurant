@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../components/Title";
-
+const img = require ('../images/plato3.png')
+const img2 = require ('../images/plato2.png')
 const Blog = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Blog = () => {
             <a className="pull-left" href="#">
               <img
                 className="media-object"
-                src="./images/plato3.png"
+                src={img}
               />
             </a>
             <div className="media-body">
@@ -62,7 +63,7 @@ const Blog = () => {
             <a className="pull-left" href="#">
               <img
                 className="media-object"
-                src="./images/plato2.png"
+                src={img2}
               />
             </a>
             <div className="media-body">

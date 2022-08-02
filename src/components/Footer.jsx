@@ -1,4 +1,8 @@
 import React from 'react'
+const img1=require('../images/facebook.png')
+const img2=require('../images/whatsapp.PNG')
+const img3=require('../images/instagram.PNG')
+
 
 const Footer = () => {
   return (
@@ -13,13 +17,13 @@ const Footer = () => {
       </a>
       <span className="text-muted">© 2022 - Sabores &amp; Culinarios</span>
       <a href="#">
-        <img src="images/facebook.png" className="iconos" />
+        <img src={img1} className="iconos" />
       </a>
       <a href="#">
-        <img src="images/instagram.PNG" className="iconos" />
+        <img src={img2} className="iconos" />
       </a>
       <a href="#">
-        <img src="images/whatsapp.PNG" className="iconos" />
+        <img src={img3} className="iconos" />
       </a>
       {/* <img src="images/logo.png" className="abajo" /> */}
     </div>

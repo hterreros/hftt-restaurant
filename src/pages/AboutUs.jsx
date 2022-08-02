@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../components/Title";
+const img = require ('../images/restaurante1.png')
 
 const AboutUs = () => {
   return (
@@ -15,7 +16,7 @@ const AboutUs = () => {
         detalles de cada plato.
       </p>
       <a>
-      <img src="images/restaurante1.png" />
+      <img src={img} />
       </a>
     </>
   );
